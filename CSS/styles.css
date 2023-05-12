@@ -1,0 +1,277 @@
+/*------------------------------------------------------------------*/
+/*--------------------- Universal Selector -------------------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: lightcyan;
+}
+/*------------------------------------------------------------------*/
+/*----------------------- Navigation Bar ---------------------------*/
+
+header ul .nav-item-active{                                          
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orange;
+    color: ghostwhite;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+header ul .navigation-item{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategrey; 
+    margin: 10px;
+}
+
+header ul .nav-item-dropdown{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategrey; 
+    margin: 5px;
+}
+
+header ul .nav-item-active:hover{
+    color: darkslategrey;
+}
+
+header ul .navigation-item:hover{
+    color: ghostwhite; 
+    background-color: orange;
+    border-radius: 5px;
+}
+
+header ul .nav-item-dropdown:hover{
+    color: ghostwhite; 
+    background-color: orange;
+    border-radius: 5px;
+}
+/*------------------------------------------------------------------*/
+/*------------------------ Hero Section ----------------------------*/
+
+.hero-section-container{
+    border-radius: 0 0 20% 20%;
+    border: 2px solid transparent;
+}
+
+.hero-section-container h6{
+    color: blue;
+}
+
+.hero-section-container button{
+    color: orange;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 2px solid orange;
+}
+
+.hero-section-container button:hover{
+    color: ghostwhite;
+    background-color: orange;
+    border: 2px solid ghostwhite;
+}
+/*------------------------------------------------------------------*/
+/*---------------------- About Us Section --------------------------*/
+
+.about-container{
+    background-image: url(../images/43724_EWS_Design-SLA-.png);
+}
+.about-container h1{
+    font-family: "Copperplate Gothic Light";
+    text-shadow: 0 0 5px orange;
+    background-color: transparent;
+}
+
+.about-container p{
+    font-size: 20px;
+    text-shadow: 0 0 5px green;
+    background-color: transparent;
+}
+
+.about-container .about-btn-cover{
+    background-color: transparent;
+}
+
+.about-container button{
+    color: orange;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 2px solid orange;
+}
+
+.about-container button:hover{
+    color: ghostwhite;
+    background-color: orange;
+    border: 2px solid ghostwhite;
+}
+/*------------------------------------------------------------------*/
+/*------------------ Competition Info Section ----------------------*/
+
+.competition-container button{
+    color: orange;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 2px solid orange;
+}
+
+.competition-container button:hover{
+    color: ghostwhite;
+    background-color: orange;
+    border: 2px solid ghostwhite;
+}
+/*---------------------------------------------------------------------*/
+/*---------------------- Our Sectors Section --------------------------*/
+
+.sectors-container img{
+    color: brown;
+}
+
+.sectors-container{
+    background-color: orange;
+}
+
+.sectors-container h1{
+    font-family: "Copperplate Gothic Light";
+}
+/*-------------------------------------------------------------------*/
+/*------------------- Purpose of this Website -----------------------*/
+
+.purpose-container{
+    background-color: green;
+    border-radius: 3px;
+}
+
+.purpose-container em{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+}
+/*--------------------------------------------------------------------*/
+/*-------------------- Career Finder Section -------------------------*/
+.finder-container h2{
+    font-family: "Copperplate Gothic Light";
+}
+
+.finder-container h4{
+    color: green;
+    background: transparent;
+    cursor: pointer;
+}
+
+.finder-container p{
+    background: transparent;
+}
+/*--------------------------------------------------------------------*/
+/*------------------ Psychometric Tests Section ----------------------*/
+
+.psychometric-border{
+    background-color: blue;
+}
+
+.psychometric-container .psychometric-img{
+    width: 70%;
+}
+
+
+.psychometric-container button{
+    font-family: "Copperplate Gothic Light";
+    color: ghostwhite;
+    background-color: orange;
+    border: 2px solid blue;
+}
+
+.psychometric-container button:hover{
+    color: blue;
+    border: 2px solid orange;
+}
+/*--------------------------------------------------------------------*/
+/*-------------------- Career Options Section ------------------------*/
+
+.career-options-outer{
+    background-image: url(../images/Water-energy-economy-web.jpg);
+}
+
+.career-options-inside{
+    background: transparent;
+}
+
+.career-options-inside img{
+    background: transparent;
+    animation: cursor-move 5s infinite;
+}
+
+@keyframes cursor-move {
+    100% {transform: rotate(360deg);}
+}
+
+.career-options-inside h6{
+    font-family: "Copperplate Gothic Light";
+    color: ghostwhite;
+    background: transparent;
+    text-shadow: 0 0 5px green;
+}
+
+.career-options-inside h1{
+    background: transparent;
+    text-shadow: 0 0 5px green;
+}
+
+.career-options-inside p{
+    color: ghostwhite;
+    background: transparent;
+    text-shadow: 0 0 10px black;
+}
+
+.career-options-inside .career-btn-cover{
+    background: transparent;
+}
+
+.career-options-inside button{
+    color: ghostwhite;
+    background-color: green;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+
+.career-options-inside button:hover{
+    color: green;
+    background-color: transparent;
+    border: 2px solid green;
+}
+/*--------------------------------------------------------------------*/
+/*------------------------ Footer Section ----------------------------*/
+.footer-container .logo{
+    filter: grayscale(70%);
+    background: transparent;
+}
+
+.footer-container .logo:hover{
+    filter: grayscale(0%);
+    transform: scale(0.8);
+}
+
+.footer-container h5{
+    font-family: "Copperplate Gothic Light";
+    color: darkslategrey;
+}
+
+.footer-container h6{
+    color: darkcyan;
+}
+
+.footer-container img{
+    background-color: black;
+}
+
+.footer-container img:hover{
+    background-color: transparent;
+    transform: translateY(-10px);
+}
+
+.ul-items a{
+    color: darkcyan;
+}
+
+.ul-items a:hover{
+    color: orange;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
